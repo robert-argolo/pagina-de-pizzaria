@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 1793px;
+
+  background-color: #f6ecec;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  width: 90%;
+
+  background-color: #ffffff;
+
+  border-radius: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav-group {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 91px;
+  padding-right: 100px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.list-link {
+  display: inline;
+  margin-left: 36px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #00240f;
+}
+.link--color {
+  color: #ec0000;
+}
+
+.nav__icon {
+  margin-left: 36px;
+  cursor: pointer;
+}
+.nav__button {
+  all: unset;
+
+  margin-left: 24px;
+
+  padding: 10px 24px 11px;
+
+  width: 103px;
+  height: 40px;
+
+  background: #ec0000;
+  border-radius: 25px;
+
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.header__content-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 116px;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 74px;
+
+  color: #00240f;
+}
+
+.header__subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 58px;
+
+  color: #00240f;
+
+  margin-top: 5px;
+}
+
+.header__button {
+  all: unset;
+
+  width: 182px;
+  height: 50px;
+
+  background: #ec0000;
+  box-shadow: -10px 20px 40px rgba(236, 0, 0, 0.16);
+
+  border-radius: 25px;
+  margin-top: 36px;
+
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.recommended {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 113px;
+}
+
+.recommended__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 74px;
+  text-align: center;
+
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.recommended__menu-group {
+  /* border: 1px solid black; */
+  width: 950px;
+  height: 530px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommended__menu {
+  width: 290px;
+  height: 515px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #bdbdbd;
+  border-radius: 180px 180px 30px 30px;
+}
+
+.menu--shadow {
+  box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.2);
+}
+.menu__image {
+  border-radius: 50%;
+  margin-top: 24px;
+  margin-bottom: 21px;
+}
+
+.menu__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #000000;
+
+  padding-bottom: 4px;
+}
+
+.menu__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #333333;
+
+  padding: 0px 23.5px 21px 23.5px;
+}
+
+.menu__price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #05a84b;
+
+  padding-bottom: 21px;
+}
+
+.menu__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 243px;
+  height: 40px;
+  padding: 9px 16px;
+
+  background-color: #ffffff;
+
+  border: 1px solid #4f4f4f;
+  border-radius: 25px;
+
+  /* margin: auto; */
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+}
+
+.select-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #333333;
+}
+
+.menu__button {
+  all: unset;
+
+  width: 243px;
+  height: 40px;
+
+  background: #ec0000;
+  border-radius: 25px;
+
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
